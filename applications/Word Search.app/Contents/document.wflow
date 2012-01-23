@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>330</string>
+	<key>AMApplicationVersion</key>
+	<string>2.2.1</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+					<string>TextEdit</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>buttonAffirmative</key>
+					<dict/>
+					<key>buttonNegative</key>
+					<dict/>
+					<key>defaultAnswer</key>
+					<dict/>
+					<key>defaultMessage</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Type a list of words</string>
+						</array>
+					</dict>
+					<key>requireInput</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Ask for Text.action</string>
+				<key>ActionName</key>
+				<string>Ask for Text</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>buttonAffirmative</key>
+					<string>OK</string>
+					<key>buttonNegative</key>
+					<string>Cancel</string>
+					<key>defaultAnswer</key>
+					<string></string>
+					<key>defaultMessage</key>
+					<string>Type a list of words</string>
+					<key>requireInput</key>
+					<true/>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.TextInputDialog</string>
+				<key>CFBundleVersion</key>
+				<string>1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryText</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAskForTextAction</string>
+				<key>InputUUID</key>
+				<string>85F353CB-2992-47E0-811F-A2C1C4A7FA52</string>
+				<key>Keywords</key>
+				<array>
+					<string>Text</string>
+					<string>Ask</string>
+					<string>Prompt</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>8C176426-6C59-4217-93CC-C6A3D82CE6B0</string>
+				<key>UUID</key>
+				<string>7520373D-26EC-4096-802A-79DF962BE064</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+					<string>TextEdit</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>defaultAnswer</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string>OK</string>
+						<key>name</key>
+						<string>buttonAffirmative</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>defaultMessage</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>Cancel</string>
+						<key>name</key>
+						<string>buttonNegative</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>requireInput</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>461.000000:601.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>from copy import copy as duplicate
+import random
+import re
+import string
+import sys
+import time
+
+
+class Crossword(object):
+    def __init__(self, cols, rows, empty='-', maxloops=2000,
+                 available_words=[]):
+        self.cols = cols
+        self.rows = rows
+        self.empty = empty
+        self.maxloops = maxloops
+        self.available_words = available_words
+        self.randomize_word_list()
+        self.current_word_list = []
+        self.clear_grid()
+
+    def clear_grid(self):  # initialize grid and fill with empty character
+        self.grid = []
+        for i in range(self.rows):
+            ea_row = []
+            for j in range(self.cols):
+                ea_row.append(self.empty)
+            self.grid.append(ea_row)
+
+    def randomize_word_list(self):  # also resets words and sorts by length
+        temp_list = []
+        for word in self.available_words:
+            if isinstance(word, Word):
+                temp_list.append(Word(word.original))
+            else:
+                temp_list.append(Word(word))
+        random.shuffle(temp_list)  # randomize word list
+        temp_list.sort(key=lambda i: i.length, reverse=True)  # sort by length
+        self.available_words = temp_list
+
+    def compute_crossword(self, time_permitted=1.00, spins=2):
+        time_permitted = float(time_permitted)
+
+        count = 0
+        copy = Crossword(self.cols, self.rows, self.empty, self.maxloops,
+                         self.available_words)
+
+        start_full = float(time.time())
+        # only run for x seconds
+        while (float(time.time()) - start_full) &lt; time_permitted or count == 0:
+            copy.current_word_list = []
+            copy.clear_grid()
+            copy.randomize_word_list()
+            x = 0
+            while x &lt; spins:  # spins; 2 seems to be plenty
+                for word in copy.available_words:
+                    if word not in copy.current_word_list:
+                        copy.fit_and_add(word)
+                x += 1
+            # buffer the best crossword by comparing placed words
+            if len(copy.current_word_list) &gt; len(self.current_word_list):
+                self.current_word_list = copy.current_word_list
+                self.grid = copy.grid
+            count += 1
+        return
+
+    def suggest_coord(self, word):
+        coordlist = []
+        glc = -1
+        for given_letter in word.word:  # cycle through letters in word
+            glc += 1
+            rowc = 0
+            for row in self.grid:  # cycle through rows
+                rowc += 1
+                colc = 0
+                for cell in row:  # cycle through  letters in rows
+                    colc += 1
+                    # check match letter in word to letters in row
+                    if given_letter == cell:
+                        try:  # suggest vertical placement
+                            # make sure we're not suggesting a starting point
+                            # off the grid
+                            if rowc - glc &gt; 0:
+                                # make sure word doesn't go off of grid
+                                if ((rowc - glc) + word.length) &lt;= self.rows:
+                                    coordlist.append([colc, rowc - glc, 1, colc
+                                                      + (rowc - glc), 0])
+                        except:
+                            pass
+                        try:  # suggest horizontal placement
+                            # make sure we're not suggesting a starting point
+                            # off the grid
+                            if colc - glc &gt; 0:
+                                # make sure word doesn't go off of grid
+                                if ((colc - glc) + word.length) &lt;= self.cols:
+                                    coordlist.append([colc - glc, rowc, 0, rowc
+                                                      + (colc - glc), 0])
+                        except:
+                            pass
+        new_coordlist = self.sort_coordlist(coordlist, word)
+        return new_coordlist
+
+    # give each coordinate a score, then sort
+    def sort_coordlist(self, coordlist, word):
+        new_coordlist = []
+        for coord in coordlist:
+            col, row, vertical = coord[0], coord[1], coord[2]
+            # checking scores
+            coord[4] = self.check_fit_score(col, row, vertical, word)
+            if coord[4]:  # 0 scores are filtered
+                new_coordlist.append(coord)
+        random.shuffle(new_coordlist)  # randomize coord list; why not?
+        # put the best scores first
+        new_coordlist.sort(key=lambda i: i[4], reverse=True)
+        return new_coordlist
+
+    # doesn't really check fit except for the first word; otherwise just adds
+    # if score is good
+    def fit_and_add(self, word):
+        fit = False
+        count = 0
+        coordlist = self.suggest_coord(word)
+
+        while not fit and count &lt; self.maxloops:
+            # this is the first word: the seed
+            if len(self.current_word_list) == 0:
+                # top left seed of longest word yields best results (maybe
+                # override)
+                vertical, col, row = random.randrange(0, 2), 1, 1
+                # optional center seed method, slower and less keyword
+                # placement
+                if vertical:
+                    col = int(round((self.cols + 1) / 2, 0))
+                    row = int(round((self.rows + 1) / 2, 0)) - \
+                            int(round((word.length + 1) / 2, 0))
+                else:
+                    col = int(round((self.cols + 1) / 2, 0)) - \
+                            int(round((word.length + 1) / 2, 0))
+                    row = int(round((self.rows + 1) / 2, 0))
+                # completely random seed method
+                col = random.randrange(1, self.cols + 1)
+                row = random.randrange(1, self.rows + 1)
+
+                if self.check_fit_score(col, row, vertical, word):
+                    fit = True
+                    self.set_word(col, row, vertical, word, force=True)
+            else:  # a subsquent words have scores calculated
+                try:
+                    col, row, vertical = coordlist[count][0],\
+                            coordlist[count][1], coordlist[count][2]
+                # no more cordinates, stop trying to fit
+                except IndexError:
+                    return
+
+                # already filtered these out, but double check
+                if coordlist[count][4]:
+                    fit = True
+                    self.set_word(col, row, vertical, word, force=True)
+
+            count += 1
+        return
+
+    def check_fit_score(self, col, row, vertical, word):
+        '''
+        And return score (0 signifies no fit). 1 means a fit, 2+ means a cross.
+
+        The more crosses the better.
+        '''
+        if col &lt; 1 or row &lt; 1:
+            return 0
+
+        # give score a standard value of 1, will override with 0 if collisions
+        # detected
+        count, score = 1, 1
+        for letter in word.word:
+            try:
+                active_cell = self.get_cell(col, row)
+            except IndexError:
+                return 0
+
+            if active_cell == self.empty or active_cell == letter:
+                pass
+            else:
+                return 0
+
+            if active_cell == letter:
+                score += 1
+
+            if vertical:
+                # check surroundings
+                # don't check surroundings if cross point
+                if active_cell != letter:
+                    # check right cell
+                    if not self.check_if_cell_clear(col + 1, row):
+                        return 0
+                    # check left cell
+                    if not self.check_if_cell_clear(col - 1, row):
+                        return 0
+
+                if count == 1:  # check top cell only on first letter
+                    if not self.check_if_cell_clear(col, row - 1):
+                        return 0
+ 
+                if count == len(word.word): # check bottom cell only on last letter
+                    if not self.check_if_cell_clear(col, row+1): 
+                        return 0
+            else: # else horizontal
+                # check surroundings
+                if active_cell != letter: # don't check surroundings if cross point
+                    if not self.check_if_cell_clear(col, row-1): # check top cell
+                        return 0
+ 
+                    if not self.check_if_cell_clear(col, row+1): # check bottom cell
+                        return 0
+ 
+                if count == 1: # check left cell only on first letter
+                    if not self.check_if_cell_clear(col-1, row):
+                        return 0
+ 
+                if count == len(word.word): # check right cell only on last letter
+                    if not self.check_if_cell_clear(col+1, row):
+                        return 0
+ 
+ 
+            if vertical: # progress to next letter and position
+                row += 1
+            else: # else horizontal
+                col += 1
+ 
+            count += 1
+ 
+        return score
+ 
+    def set_word(self, col, row, vertical, word, force=False): # also adds word to word list
+        if force:
+            word.col = col
+            word.row = row
+            word.vertical = vertical
+            self.current_word_list.append(word)
+ 
+            for letter in word.word:
+                self.set_cell(col, row, letter)
+                if vertical:
+                    row += 1
+                else:
+                    col += 1
+        return
+ 
+    def set_cell(self, col, row, value):
+        self.grid[row-1][col-1] = value
+ 
+    def get_cell(self, col, row):
+        return self.grid[row-1][col-1]
+ 
+    def check_if_cell_clear(self, col, row):
+        try:
+            cell = self.get_cell(col, row)
+            if cell == self.empty: 
+                return True
+        except IndexError:
+            pass
+        return False
+ 
+    def print_solution(self): # return solution grid
+        print('== Answer ==')
+        for r in range(self.rows):
+            line = ''
+            for c in self.grid[r]:
+                line += '%s' % c
+            print(line.encode('utf-8').strip())
+        print
+ 
+    def print_word_find(self): # return solution grid
+        print('== Word Search ==')
+        for r in range(self.rows):
+            line = ''
+            for c in self.grid[r]:
+                if c == self.empty:
+                    line += '%s' % random.choice(string.lowercase)
+                else:
+                    line += '%s' % c
+            print(line.encode('utf-8').strip())
+        print
+ 
+    def print_word_bank(self):
+        print('== Word Bank ==')
+        temp_list = duplicate(self.current_word_list)
+        random.shuffle(temp_list) # randomize word list
+        for w in temp_list:
+            print(w.original.strip())
+        print
+
+
+class Word(object):
+    def __init__(self, word=None):
+        self.original = word
+        self.word = re.sub(r'\s', '', word.lower())
+        self.length = len(self.word)
+        # the below are set when placed on board
+        self.row = None
+        self.col = None
+        self.vertical = None
+ 
+    def __repr__(self):
+        return self.word
+
+if __name__ == '__main__':
+    words = re.split('\W+', sys.argv[1].strip())
+    a = Crossword(15, 15, u'\u00b7', 5000, words)
+    a.compute_crossword(2)
+    a.print_word_bank()
+    a.print_word_find()
+    a.print_solution()</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/usr/bin/python</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>30BEFD3A-D324-4B03-AAF2-C2DF53B1267A</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>96D5DEFE-83D4-47CE-96A8-6DA20FAF21BE</string>
+				<key>UUID</key>
+				<string>81FC93DB-AD8E-4A97-B6B5-AA768A960F00</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>461.000000:419.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>appPath</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<true/>
+						<key>variableUUIDsInMenu</key>
+						<array/>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Launch Application.action</string>
+				<key>ActionName</key>
+				<string>Launch Application</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>appPath</key>
+					<string>/Applications/TextEdit.app</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.OpenApplication</string>
+				<key>CFBundleVersion</key>
+				<string>1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMLaunchApplicationAction</string>
+				<key>InputUUID</key>
+				<string>121DA30E-C005-4589-AA2D-2EDA101A53BD</string>
+				<key>Keywords</key>
+				<array>
+					<string>File</string>
+					<string>Open</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>4C67D257-C3EB-4935-9F69-2292F39298DE</string>
+				<key>UUID</key>
+				<string>2D662B3F-EF2B-4F8E-A1D5-684E3766A114</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>/Applications/Address Book.app</string>
+						<key>name</key>
+						<string>appPath</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>461.000000:236.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Launch Application.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>TextEdit</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>addMethodIndicator</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Set Contents of TextEdit Document.action</string>
+				<key>ActionName</key>
+				<string>Set Contents of TextEdit Document</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>addMethodIndicator</key>
+					<integer>1</integer>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.SetContentOfTextEditDocument</string>
+				<key>CFBundleVersion</key>
+				<string>1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryText</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMSetContentsOfTextEditDocumentAction</string>
+				<key>InputUUID</key>
+				<string>387B6793-4792-4F96-BDC6-3643154E5967</string>
+				<key>Keywords</key>
+				<array>
+					<string>Set</string>
+					<string>Text</string>
+					<string>Document</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>DCEA17A8-F81F-4E25-B720-0DF717431803</string>
+				<key>UUID</key>
+				<string>50CF6DC1-C805-4136-BA3E-CC2991E92346</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>TextEdit</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>addMethodIndicator</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>461.000000:133.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Set Contents of TextEdit Document.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>1BD7DCCA-C518-4DBE-AD81-67D4F8194B35</key>
+		<dict>
+			<key>from</key>
+			<string>2D662B3F-EF2B-4F8E-A1D5-684E3766A114 - 2D662B3F-EF2B-4F8E-A1D5-684E3766A114</string>
+			<key>to</key>
+			<string>50CF6DC1-C805-4136-BA3E-CC2991E92346 - 50CF6DC1-C805-4136-BA3E-CC2991E92346</string>
+		</dict>
+		<key>68AF7FB6-60B6-4422-8E82-BA6A48B22BD6</key>
+		<dict>
+			<key>from</key>
+			<string>7520373D-26EC-4096-802A-79DF962BE064 - 7520373D-26EC-4096-802A-79DF962BE064</string>
+			<key>to</key>
+			<string>81FC93DB-AD8E-4A97-B6B5-AA768A960F00 - 81FC93DB-AD8E-4A97-B6B5-AA768A960F00</string>
+		</dict>
+		<key>FD08EC6C-99A6-4BA0-92DF-E8F7BBF95840</key>
+		<dict>
+			<key>from</key>
+			<string>81FC93DB-AD8E-4A97-B6B5-AA768A960F00 - 81FC93DB-AD8E-4A97-B6B5-AA768A960F00</string>
+			<key>to</key>
+			<string>2D662B3F-EF2B-4F8E-A1D5-684E3766A114 - 2D662B3F-EF2B-4F8E-A1D5-684E3766A114</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>
