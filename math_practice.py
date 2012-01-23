@@ -48,12 +48,12 @@ def multiply(pnum):
 def divide(pnum):
     LOW = 1
     HIGH = 12
-    f1 = random.randint(LOW, HIGH)
-    f2 = random.randint(LOW, HIGH)
-    i = f1 * f2
-    n1, l1 = line1(pnum, i, i)
-    n2, l2 = line2(u'\u00f7', f1, f1)
-    return l1, l2, f2
+    divisor = random.randint(LOW, HIGH)
+    quotient = random.randint(LOW, HIGH)
+    dividend = divisor * quotient
+    n1, l1 = line1(pnum, dividend, dividend)
+    n2, l2 = line2(u'\u00f7', divisor, divisor)
+    return l1, l2, quotient
 
 
 def print_answers(answers):

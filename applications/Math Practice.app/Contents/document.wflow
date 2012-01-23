@@ -109,18 +109,18 @@ def multiply(pnum):
 def divide(pnum):
     LOW = 1
     HIGH = 12
-    f1 = random.randint(LOW, HIGH)
-    f2 = random.randint(LOW, HIGH)
-    i = f1 * f2
-    n1, l1 = line1(pnum, i, i)
-    n2, l2 = line2(u'\u00f7', f1, f1)
-    return l1, l2, f2
+    divisor = random.randint(LOW, HIGH)
+    quotient = random.randint(LOW, HIGH)
+    dividend = divisor * quotient
+    n1, l1 = line1(pnum, dividend, dividend)
+    n2, l2 = line2(u'\u00f7', divisor, divisor)
+    return l1, l2, quotient
 
 
 def print_answers(answers):
     numbered = []
     for i in range(len(answers)):
-        w = u'%s\u00A0%s' % (as_letter(i+1), answers[i])
+        w = u'%s\u00A0%s' % (as_letter(i + 1), answers[i])
         numbered.append(w.encode('utf-8'))
     print('== Answer ==')
     print('Answers:\t%s' % '  '.join(numbered))
@@ -469,14 +469,14 @@ if __name__ == '__main__':
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>975EBD5C-8B03-40D3-8F75-0B7877F9D994</key>
+		<key>C4C77714-9352-4903-BCB7-30F125D49ADE</key>
 		<dict>
 			<key>from</key>
 			<string>81FC93DB-AD8E-4A97-B6B5-AA768A960F00 - 81FC93DB-AD8E-4A97-B6B5-AA768A960F00</string>
 			<key>to</key>
 			<string>2D662B3F-EF2B-4F8E-A1D5-684E3766A114 - 2D662B3F-EF2B-4F8E-A1D5-684E3766A114</string>
 		</dict>
-		<key>D7AB45FF-6959-4F87-8C5E-F124D58BB417</key>
+		<key>E04D61ED-916A-4AA9-B512-473BDD5E2BFF</key>
 		<dict>
 			<key>from</key>
 			<string>2D662B3F-EF2B-4F8E-A1D5-684E3766A114 - 2D662B3F-EF2B-4F8E-A1D5-684E3766A114</string>
